@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container-st{
+    max-width: 1080px;
+    @apply px-5 mx-auto;
+}
+
+.btn-orange{ 
+    width: 160px;
+    height: 44px;
+    @apply inline-flex items-center justify-center font-bold text-black uppercase rounded-full bg-orange hover:bg-black hover:text-orange;
+}
+
+.btn-white{ 
+    width: 160px;
+    height: 44px;
+    @apply inline-flex items-center justify-center font-bold text-black uppercase bg-white rounded-full;
+}

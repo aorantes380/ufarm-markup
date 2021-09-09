@@ -1,0 +1,19 @@
+{
+  "name": "ufarm-markup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aorantes380/ufarm-markup.git",
+  "author": "Angelo Orantes <aorantesp@gmail.com>",
+  "scripts": {
+    "dev": "postcss ./src/styles.css -o ./public/assets/css/styles.css",
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/assets/css/styles.css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.9",
+    "win-node-env": "^0.4.0"
+  }
+}
